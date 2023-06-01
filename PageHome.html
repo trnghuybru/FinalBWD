@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="css/PageHome.css">
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <section class="gallary">
+        <div class="section__container gallary__container">
+            <div class="image__gallary">
+                <div class="gallary__col">
+                    <img src="img/gallery-4.jpg" alt="gallary" />
+                </div>
+                <div class="gallary__col">
+                    <img src="img/gallery-5.jpg" alt="gallary" />
+                    <img src="img/gallery-6.jpg" alt="gallary" />
+                </div>
+            </div>
+            <div class="gallary__content">
+                <div>
+                    <h3 class="section__title">
+                        Chào mừng bạn đến với cộng đồng nhà của chúng tôi!
+                    </h3>
+                    <p class="section__subtitle">
+                        Trang web du lịch của chúng tôi là nơi giao lưu, chia sẻ kinh nghiệm và khám phá văn hóa đa dạng
+                        của thế giới. Với sự tham gia của hàng ngàn thành viên đam mê du lịch, chúng tôi cung cấp thông
+                        tin chính xác, đánh giá chân thực về các điểm đến, cùng những lời khuyên hữu ích. Hãy cùng nhau
+                        khám phá và truyền cảm hứng du lịch!
+                    </p>
+                    <button class="btn1" onclick="scrollToSection()">Khám phá</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-02">
+        <div class="box-sales">
+            <i class='bx bxs-plane-take-off'></i>
+            <h4>Thực Hiện Giấc Mơ Của Bạn</h4>
+            <p>khám phá những vùng đất mới, trải nghiệm văn hóa đa dạng và tạo những kỷ niệm vô giá.</p>
+        </div>
+
+        <div class="box-sales">
+            <i class='bx bx-dollar-circle'></i>
+            <h4>Tiết Kiệm Tài Chính</h4>
+            <p>tiết kiệm tiền ở, tiền ăn và tận hưởng không gian thoải mái như ở nhà.</p>
+        </div>
+
+        <div class="box-sales">
+            <i class='bx bx-home-alt'></i>
+            <h4>Trải Nghiệm Mới</h4>
+            <p>Khám phá văn hóa địa phương, gặp gỡ người mới, và trải nghiệm cuộc sống đích thực.</p>
+        </div>
+    </section>
+
+
+    <section class="sec-03">
+
+        <h3 class="title-boxcontainer">Cộng Đồng Nhà</h3>
+        </div>
+        <div id="underline"></div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image-container">
+                    <a href="HomeDetail.html"><img src="img/hoabacimg1.jpg" alt=""></a>
+                    <div class="info">
+                        <h3>4 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon1" class="h-12 w-12 fill-current text-white"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Đà Nẵng</h3>
+                        <i id="like" class='bx bxs-heart'><span>4k</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Khánh Linh. <br> Ngôi nhà nhỏ, thoáng đãng, đầy ánh sáng tự nhiên.</p>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home18.jpg" alt="">
+                    <div class="info">
+                        <h3>10 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon2" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 2 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Huế</h3>
+                        <i id="like" class='bx bxs-heart'><span>3k</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Xuân Phong. <br>Ngôi nhà nhỏ thể hiện sự đơn giản và tinh tế trong
+                        thiết kế.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home3.jpg" alt="">
+                    <div class="info">
+                        <h3>2 tháng trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon3" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 6 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Quảng Nam</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k1</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Gia Huy. <br>Căn nhà nhỏ nổi bật với kiến trúc độc đáo và cá tính
+                        riêng.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home4.jpg" alt="">
+                    <div class="info">
+                        <h3>9 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon4" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 3 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Quảng Ngãi</h3>
+                        <i id="like" class='bx bxs-heart'><span>3k2</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Thanh Hằng. <br>Ngôi nhà nhỏ như điểm đến lý tưởng, nơi tận hưởng cuộc
+                        sống.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home5.jpg" alt="">
+                    <div class="info">
+                        <h3>1 tháng trước</h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon5" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 4 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Quảng Trị</h3>
+                        <i id="like" class='bx bxs-heart'><span>1k5</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Xuân Hùng. <br>Ngôi nhà nhỏ thể hiện sự đơn giản và tinh tế trong thiết
+                        kế.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home10.jpg" alt="">
+                    <div class="info">
+                        <h3>1 tháng trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon6" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 2 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 4 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Hà Nội</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Thái Tuấn. <br>Căn nhà nhỏ đậm chất vintage, mang đến sự ấm áp và lãng
+                        mạn.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home11.webp" alt="">
+                    <div class="info">
+                        <h3>24 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon7" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Hồ Chí Minh</h3>
+                        <i id="like" class='bx bxs-heart'><span>1k9</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Hùng Hậu. <br>Ngôi nhà nhỏ nằm trong khuôn viên yên bình, xanh mát.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home12.webp" alt="">
+                    <div class="info">
+                        <h3>11 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon8" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Phú Yên</h3>
+                        <i id="like" class='bx bxs-heart'><span>3k4</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Khánh Linh. <br>Căn nhà nhỏ xinh, mang trong mình không gian sống ấm
+                        cúng.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home13.webp" alt="">
+                    <div class="info">
+                        <h3>3 tháng trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon9" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 3 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 6 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Cao Bằng</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k3</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Phú Quốc. <br>Ngôi nhà nhỏ, nhưng tạo cảm giác rộng rãi và thoải mái.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home14.jpg" alt="">
+                    <div class="info">
+                        <h3>1 tháng trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon10" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 4 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Nha Trang</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Minh Khánh. <br>Tổ ấm nhỏ bé, nơi tràn đầy tình yêu và ấm áp.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home15.jpg" alt="">
+                    <div class="info">
+                        <h3>18 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon11" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 2 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Khánh Hòa</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Gia Bảo. <br>Ngôi nhà nhỏ nhưng đầy tiện ích và thoải mái.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home16.jpg" alt="">
+                    <div class="info">
+                        <h3>2 tháng trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon12" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Thanh Hóa</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k5</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Uyên Linh. <br>Căn nhà nhỏ gọn, được thiết kế đẹp mắt và hiện đại.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home8.jpg" alt="">
+                    <div class="info">
+                        <h3>14 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon13" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 2 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Hải Phòng</h3>
+                        <i id="like" class='bx bxs-heart'><span>3k</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Kim Ngân. <br>Ngôi nhà nhỏ, mang trong mình nét độc đáo và sáng tạo.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home9.jpg" alt="">
+                    <div class="info">
+                        <h3>2 tháng trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon14" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Quảng Bình</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k2</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Bảo Ngọc. <br>Tổ ấm nhỏ xinh, nơi tràn đầy hạnh phúc gia đình.</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home9.webp" alt="">
+                    <div class="info">
+                        <h3>10 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon15" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 5 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Nam Định</h3>
+                        <i id="like" class='bx bxs-heart'><span>2k</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Nguyễn Vũ. <br> Ngôi nhà nhỏ nhưng tiện nghi, tận dụng không gian thông
+                        minh.<br></p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="img/home4.jpg" alt="">
+                    <div class="info">
+                        <h3>5 ngày trước </h3>
+
+                    </div>
+                    <div class="Tym">
+                        <svg id="heart-icon16" class="h-12 w-12 fill-current text-white "
+                            xmlns="http://www.w3.org/2000/svg" viewBox="-10 2 50 48">
+                            <path id="heart"
+                                d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
+
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fas fa-film">
+                            <h3> 1 </h3>
+                        </a>
+                        <a href="#" class="fas fa-camera">
+                            <h3> 6 </h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="content">
+
+                    <div class="location">
+                        <h3><i id="" class="fas fa-map-marker-alt"></i> Quảng Ninh</h3>
+                        <i id="like" class='bx bxs-heart'><span>1k9</span></i>
+                    </div>
+
+                    <p><i class='bx bx-user'></i>Ngọc Châu. <br>Căn nhà nhỏ xinh, tràn đầy không gian ấm cúng.</p>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <div id="footer"></div>
+
+
+    <script>
+
+
+        // Scroll
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 200
+        });
+
+        ScrollReveal().reveal('.image__gallary', { delay: 10, origin: 'left' });
+        ScrollReveal().reveal('.section__title', { delay: 10, origin: 'top' });
+        ScrollReveal().reveal('.section__subtitle', { delay: 10, origin: 'right' });
+
+        ScrollReveal().reveal('.title-boxcontainer', { delay: 10, origin: 'left' });
+        ScrollReveal().reveal('.box', { delay: 10, origin: 'bottom' });
+
+        ScrollReveal().reveal('.box-sales', { delay: 10, origin: 'bottom' });
+
+
+        document.getElementById('heart-icon1').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon2').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon3').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon4').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon5').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon6').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon7').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon8').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon9').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon10').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon11').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon12').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon13').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon14').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon15').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        document.getElementById('heart-icon16').addEventListener('click', function () {
+            this.classList.toggle('heart-red');
+        });
+        // Load navbar
+        $(document).ready(function () {
+            $("#navbar").load("html/nav_bar.html");
+        });
+
+        $(document).ready(function () {
+            $("#footer").load("footer.html");
+        });
+
+
+        
+        function scrollToSection() {
+        var section = document.querySelector('.sec-02');
+         section.scrollIntoView({ behavior: 'smooth' });
+}
+
+    </script>
+
+    <style>
+        .heart-red {
+            fill: red;
+        }
+    </style>
+
+
+
+</body>
+
+</html>
