@@ -1,0 +1,251 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 0px 0px 20px 20px;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 30%;
+}
+
+.background video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.filter-container {
+    /* position: absolute; */
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    z-index: 100;
+    box-shadow: 0  3px 10px rgb(0 0 0 / 0.2);
+    transform: translateY(50%);
+}
+
+.filter-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.filter-input label {
+    margin-left: 10px;
+    z-index: 2;
+}
+
+.filter-input label .label-style {
+    background: #fff;
+    padding: 0 10px;
+    color: hsl(206, 34%, 20%);
+}
+
+.filter-input input {
+    margin-top: -10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    z-index: 1;
+    border: #1e8fff solid 1px;
+    box-shadow: 0  3px 10px rgba(0, 0, 0, 0.092);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#searchHome, #searchRoute {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 100px;
+    padding: var(--padding, 5px 15px);
+    border: var(--border-width, 2px) solid transparent;
+    transition: 0.25s ease-in-out;
+    background: #1e8fff;
+    border-color: #1e8fff;
+    width: 48%;
+}
+
+#searchHome {
+    font-size: 13px;
+    padding: 8px 15px;
+}
+
+
+#searchHome:hover, #searchRoute:hover {
+    background-color: hsl(214, 57%, 51%);
+    border-color: hsl(214, 57%, 51%);
+}
+
+.map-container{
+    position: inherit;
+    width: 90%;
+    height: 300px;
+    margin-inline: auto;
+    margin-top: 150px;
+    border-radius: 30px;
+    background-color: #1e8fffca ;
+    overflow: hidden;
+}
+
+.map-container {
+    display: none;
+}
+
+.map-container .close_map{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.662);
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.map-container .close_map:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.close_map ion-icon {
+    font-size: 25px;
+    color: #1e8fff;
+    z-index: 101;
+   
+}
+
+@media (min-width: 580px){
+    .background {
+        margin-bottom: 18%;
+    }
+    .filter-container{
+        top: 250px;
+        padding: 30px 40px;
+    }
+    .filter-container .filter-input label {
+        margin-left: 30px;
+    }
+
+    .filter-container .filter-input input {
+        height: 45px;
+    }
+    #searchHome, #searchRoute {
+        font-size: 16px;
+        width: 48%;
+    }
+}
+
+@media (min-width: 768px){
+    .background{
+        margin-bottom: 10%;
+    }
+    .filter-container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        transform: translateY(60%);
+        gap: 14px;
+    }
+    .filter-container .filter-input {
+        margin-bottom: 5px;
+    }
+    .filter-container .filter-input input {
+        height: 40px;
+    }
+    .filter-container .filter-input label {
+        margin-left: 20px;
+    }
+    .filter-container .filter-input label .label-style {
+        font-size: 16px;
+    }
+    .btn-container {
+        grid-column: span 3;
+    }
+    #searchHome, #searchRoute{
+        font-size: 15px;
+        width: 50%;
+        margin-bottom: 5px;
+        margin-inline: auto;
+        width: 44%;
+    }
+    .map-container {
+        margin-top: 110px;
+    }
+}
+
+@media (min-width: 992px){
+    .background {
+        margin-bottom: 0;
+    }
+    .filter-container {
+        padding: 40px 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .filter-container .filter-input {
+        margin-bottom: 0px;
+    }
+
+    .filter-container .filter-input label .label-style {
+        font-size: 18px;
+        width: fit-content;
+    }
+
+    .filter-container .filter-input label {
+        margin-left: 20px;
+    }
+
+    .btn-container {
+        row-gap: 0px;
+        width: 70%;
+        margin-inline: auto;
+    }
+
+    #searchHome, #searchRoute {
+        width: 100%;
+        margin-inline: auto;
+        margin-top: 0px;
+        font-size: 16px;
+        width: 35%;
+        
+    }
+
+    .map-container {
+        height: 400px;
+        width: 70%;
+    }
+
+}
+@media (min-width: 1200px){
+    .filter-container {
+        transform: translateY(130px);
+    }
+}
+

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- script -->
+
+    <script src="script/jquerry.js"></script>
+    <script src="script/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="arrow">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+    <div id="navbar"></div>
+    <div id="filter"></div>
+
+    <!-- community -->
+    <section class="community animate__animated">
+        <div class="container">
+            <div class="section-content">
+                <p class="section-subtitle">Cùng TechTrek</p>
+                <h2 class="h2 section-title">Trải nghiệm du lịch độc đáo</h2>
+                <p class="section-text">Bạn đã bao giờ thắc mắc người bản địa ăn uống và tham gia hoạt động gì thú vị
+                    chưa?
+                    Hãy cùng TechTreck khám phá và trải nghiệm món ăn độc đáo, các hoạt động dân gian
+                    và văn hóa đặc trưng của các vùng miền. Hãy đồng hành cùng chúng tôi để
+                    khám phá sự thú vị và độc đáo của người bản địa!
+                </p>
+                <button class="btn btn-primary">Tham gia ngay</button>
+            </div>
+            <div class="about__img">
+                <div class="about__img-overlay">
+                    <img src="img/cmn2.jpg" alt="" class="about__img-one">
+                </div>
+
+                <div class="about__img-overlay">
+                    <img src="img/cmn1.jpg" alt="" class="about__img-two">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- POPULAR -->
+    <section class="popular" id="destination">
+        <div class="container">
+            <div class="section-content">
+                <p class="section-subtitle">Khám phá Việt Nam</p>
+                <h2 class="h2 section-title">Địa điểm nổi tiếng</h2>
+                <p class="section-text">
+                    Việt Nam có nhiều di sản văn hóa,danh lam thắng cảnh, là điểm đến hấp dẫn ở Đông Nam Á. Cùng tụi mình khám phá xem Việt Nam - mảnh đất hình chữ S có những gì thú vị nhé!
+                </p>
+            </div>
+            <ul class="popular-list">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="popular-card">
+                                <figure class="card-img">
+                                    <img src="img/popular-1.jpg" alt="" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Quảng Nam</a>
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Hội An</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Hội An say đắm du khách bởi nét đẹp trường tồn, mộc mạc và bình dị.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="popular-card">
+                                <figure class="card-img">
+                                    <img src="img/popular-2.jpg" alt="" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Phú Yên</a>
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Tháp Nghinh Phong</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Công trình được lấy cảm hứng từ truyền thuyết Con Rồng cháu tiên là điểm check-in hấp dẫn ở Tuy Hòa.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="popular-card">
+                                <figure class="card-img">
+                                    <img src="img/popular-3.jpg" alt="" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Ninh Bình</a>
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Tràng An</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Tràng An là Khu du lịch sinh thái được UNESCO công nhận Di sản thế giới kép từ năm 2014.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="popular-card">
+                                <figure class="card-img">
+                                    <img src="img/popular-4.jpg" alt="" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Quảng Bình</a>
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Hang Sơn Đoòng</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Sơn Đoòng là hang động lớn nhất hành tinh và cũng là hang động hùng vĩ nhất tại Việt Nam.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="popular-card">
+                                <figure class="card-img">
+                                    <img src="img/popular-5.jpg" alt="" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Quảng Ninh</a>
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Vịnh Hạ Long</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Vịnh Hạ Long - Điểm đến hấp dẫn với phong cảnh thiên nhiên độc đáo.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </ul>
+            <button class="btn btn-primary">Khám phá ngay</button>
+        </div>
+    </section>
+
+    <!-- Feedback -->
+    <section class="feedback">
+        <div class="background-feedback"><img src="img/feedback.jpg" alt=""></div>
+        <div class="container">
+            <div class="section-content">
+                <p class="section-subtitle">Sau khi trải nghiệm</p>
+                <h2 class="h2 section-title">Trecker nói gì ?</h2>
+            </div>
+            <ul class="feedback-list">
+                <li>
+                    <div class="feedback-card">
+                        <img src="img/avt1.png" alt="">
+                        <h3 class="h3 person-name"><a href="#">Huy Trương</a></h3>
+                        <p class="feedback-text">
+                            Thật là một trải nghiệm tuyệt vời khi được
+                            tham gia cộng đồng của TechTreck! Gặp gỡ những bạn bè mới, trải nghiệm
+                            cuộc sống mới. Cảm ơn TechTrek !
+                        </p>
+                        <button class="btn btn-primary">TreckWall</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <img src="img/avt2.png" alt="">
+                        <h3 class="h3 person-name"><a href="#">Xuân Phong</a></h3>
+                        <p class="feedback-text">
+                            Mình rất vui khi được đồng hành cùng TechTreck trong những chuyến hành trình. Mọi người đều
+                            là thành viên trong gia đình thứ 2 của mình.
+                        </p>
+                        <button class="btn btn-primary">TreckWall</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <img src="img/avt3.png" alt="">
+                        <h3 class="h3 person-name"><a href="#">Khánh Linh</a></h3>
+                        <p class="feedback-text">
+                            TechTreck mang lại một trải nghiệm du lịch mới lạ chưa từng có. Mình được sống trong ngôi
+                            nhà của các thành viên trong cộng đồng thân thiện, mến khách.
+                        </p>
+                        <button class="btn btn-primary">TreckWall</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <img src="img/avt4.jpg" alt="">
+                        <h3 class="h3 person-name"><a href="#">Zenitsu</a></h3>
+                        <p class="feedback-text">
+                            Mình mong rằng mọi người sẽ có được trải nghiệm du lịch thật thú vị khi đồng hành cùng
+                            TechTreck. Hẹn gặp bạn trong căn nhà của mình nhé.
+                        </p>
+                        <button class="btn btn-primary">TreckWall</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- mission -->
+    <div class="banner" id="banner" name="banner">
+        <div class="container">
+            <div class="section-content">
+                <p class="section-subtitle">Tự hào Việt Nam</p>
+                <h2 class="h2 section-title">Sứ mệnh của chúng tôi</h2>
+                <div id="underline"></div>
+                <p class="section-text">Sứ mệnh của chúng tôi là quảng bá sức hấp dẫn của Việt Nam trên khắp thế giới,
+                    xây dựng cộng đồng du khách nơi mỗi thành viên đều có thể chia sẻ những trải nghiệm đắt giá nhất về
+                    đất nước, con người nơi đây. Từ đó, chúng ta sẽ gắn kết lại với nhau bởi niềm đam mê và tình yêu
+                    chung dành cho Việt Nam - quê hương vô giá. Chúng ta sẽ cùng nhau truyền cảm hứng cho nhau về văn
+                    hóa đa sắc màu, con người hiếu khách và thiên nhiên tươi đẹp của Việt Nam. Tinh thần đoàn kết và sức
+                    mạnh của cộng đồng sẽ giúp chúng ta quảng bá hình ảnh Việt Nam ngày càng xa và rộng hơn.</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer"></div>
+    <!-- carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "1",
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 10,
+                depth: 50,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                580: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 3,
+
+                },
+            }
+        });
+    </script>
+    <!-- iconicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

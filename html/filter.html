@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/filter.css">
+    <script src="../script/jquerry.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- map -->
+    <script type='text/javascript'
+        src='https://www.bing.com/api/maps/mapcontrol?key=AvA1oCowe88djXqdGtwWt--phmVGadaZxFoTHnhVlmqJSf7VxVFyr7zuFR_oNQA5&amp;callback=GetMap'></script>
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- iconicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="background">
+        <video src="../videos/pexels-tom-fisk-3110387-1920x1080-30fps.mp4" muted loop autoplay></video>
+        <div class="filter-container">
+            <div class="filter-input">
+                <label for="from"><span class="label-style">Khởi hành từ</span></label>
+                <input type="text" id="start" name="from">
+            </div>
+            <div class="filter-input">
+                <label for="to"><span class="label-style">Địa điểm đến</span></label>
+                <input type="text" id="end" name="to">
+            </div>
+            <div class="filter-input">
+                <label for="people"><span class="label-style">Số lượng khách</span></label>
+                <input type="text" id="" name="people">
+            </div>
+            <div class="btn-container">
+                <button id="searchHome" type="submit">Tìm Hometel</button>
+            <button id="searchRoute" type="submit" onclick="GetDirections();" >Tìm đường</button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="map-container animate__animated" id="map">
+        <div class="close_map" id="close_map"><ion-icon name="close-outline" ></ion-icon></div>
+    </div>
+    <script src="..//script/filter.js"></script>
+</body>
+
+</html>
