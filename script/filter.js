@@ -80,3 +80,12 @@ function GetDirections() {
 
 // appear
 
+// nút searchHome
+// Lấy tham chiếu đến nút button
+var searchButton = document.getElementById('searchHome');
+
+// Xử lý sự kiện click
+searchButton.addEventListener('click', function() {
+  // Điều hướng đến trang "HomePage.html"
+  window.location.href = 'PageHome.html';
+});
