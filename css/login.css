@@ -444,7 +444,9 @@ main.sign-up-mode .carousel {
 .text-group h2 {
   line-height: 2.2rem;
   font-weight: 600;
+  color: white;
   font-size: 1.6rem;
+  font-family: 'Montserrat';
 }
 
 .bullets {
@@ -466,7 +468,7 @@ main.sign-up-mode .carousel {
 
 .bullets span.active {
   width: 1.1rem;
-  background-color: #151111;
+  background-color: #ffffff;
   border-radius: 1rem;
 }
 
