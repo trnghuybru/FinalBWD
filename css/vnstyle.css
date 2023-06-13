@@ -12,6 +12,21 @@ path:hover {
   transition: .5 ease; */
 }
 
+#arrow ion-icon{
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  background-color: #3b79c9  ;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 10px;
+}
 
 #map-box {
   display: block;

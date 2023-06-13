@@ -202,6 +202,14 @@ $(document).ready(function () {
     $("svg").svgPanZoom();
 });
 
+$(document).on('click', 'path', function () {
+    $("html,body").animate({
+        scrollTop: 0,
+        behavior: "smooth"
+    }, 600);
+    return false;
+});
+
 $(document).on('click', 'path', function (e) {
     var province = findProvince(e.target.id);
     var jsonPath = "province/" + province.id + ".json";
@@ -211,6 +219,7 @@ $(document).on('click', 'path', function (e) {
         $("#info-box").css({ position: "absolutely", left: 650, top: 0 });
         $('#info-box').html(displayProvince(data));
     });
+   
 });
 $(document).ready(function () {
     $("svg").svgPanZoom();
@@ -230,3 +239,25 @@ $(document).ready(function () {
         $("#info-box1").css('display', 'none');
     });
 });
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $("#arrow ion-icon").fadeIn();
+        }
+        else {
+            $("#arrow ion-icon").fadeOut();
+        }
+
+    });
+    $("#arrow ion-icon").on('click', function () {
+        $("html,body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+
+
+
