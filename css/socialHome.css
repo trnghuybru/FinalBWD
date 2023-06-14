@@ -1,0 +1,23 @@
+#content {
+    width: 100%;
+    height: calc(100% - 77px);
+    padding: 0px 50px;
+    display: flex;
+    align-items: start;
+}
+
+#side_bar-left {
+    width: 20%;
+    padding: 25px 12px 0 0;
+}
+
+#post {
+    width: 60%;
+    height: 100%;
+    padding: 0 12px 0px;
+}
+
+#side_bar-right {
+    width: 20%;
+    padding: 25px 0px 0px 12px;
+}
