@@ -4,20 +4,63 @@
     padding: 0px 50px;
     display: flex;
     align-items: start;
+    color: var(--gunmetal);
 }
 
 #side_bar-left {
-    width: 20%;
+    width: 22%;
     padding: 25px 12px 0 0;
 }
 
 #post {
-    width: 60%;
+    width: 56%;
     height: 100%;
     padding: 0 12px 0px;
 }
 
 #side_bar-right {
-    width: 20%;
+    width: 22%;
+    height: 100%;
     padding: 25px 0px 0px 12px;
 }
+
+@media (min-width: 0) and (max-width: 576px) {
+    #content {
+        padding: unset;
+    }
+    
+    #side_bar-left {
+        display: none;
+        visibility: hidden;
+    }
+
+    #post {
+        width: 100%;
+    }
+
+    #side_bar-right {
+        display: none;
+        visibility: hidden;
+    }
+ }
+
+@media (min-width: 577px) and (max-width: 992px) {
+    
+    #content {
+        padding: 0px 12px;
+    }
+    
+    #side_bar-left {
+        display: none;
+    }
+
+    #post {
+        width: 65%;
+        padding: 0 6px 0 0px;
+    }
+
+    #side_bar-right {
+        width: 35%;
+        padding-left: 6px;
+    }
+ }

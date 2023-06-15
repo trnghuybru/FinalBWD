@@ -41,7 +41,7 @@
 .sidebar_left_profile_info {
     position: relative;
     width: 100%;
-    margin-top: -120px;
+    margin-top: -160px;
     background-color: var(--white);
     border-radius: 48px;
     text-align: center;
@@ -80,7 +80,7 @@
     }
 
     & > small {
-        font-size: var(--fs-6);
+        font-size: var(--fs-5);
         font-weight: var(--fw-400);
     }
 }
@@ -118,6 +118,28 @@
         text-align: start;
         padding-left: unset;
         margin-top: 24px;
+        height: 300px;
+        overflow-y: overlay;
+
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+        
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #999; 
+            border-radius: 32px;
+          }
+          
+          /* Handle on hover */
+          &::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+          }
 
         & > li {
             display: flex;
@@ -133,15 +155,20 @@
 
             & > article {
                 & > h4 {
-                    font-size: 18px;
+                    font-size: 20px;
                     font-weight: var(--fw-600);
                     margin: unset;
                 }
 
                 & > small {
-                    font-size: var(--fs-6);
+                    font-size: var(--fs-5);
                 }
             }
+
+            & + & {
+                margin-top: 16px;
+            }
+            
         }
     }
 }
