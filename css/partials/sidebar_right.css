@@ -62,7 +62,7 @@
                 justify-content: space-between;
 
                 & > h6 {
-                    font-weight: var(--fw-600);
+                    font-weight: var(--fw-500);
                     margin-bottom: unset;
                 }
             }
@@ -76,11 +76,7 @@
             & > button {
                 border-radius: 100px;
                 padding: 0 24px;
-
-                &:first-child {
-                    background-color: #1E90FF;
-                    color: var(--white);
-                }
+                
                 &:last-child {
                     background-color: #E3E7EB;
                 }
@@ -126,6 +122,11 @@
             display: flex;
             align-items: center;
             gap: 6px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #eee;
+            }
 
             & + & {
                 margin-top: 16px;
@@ -141,13 +142,17 @@
             & > figcaption {
                 & > h6 {
                     margin: unset;
-                    font-weight: var(--fw-600);
+                    font-weight: var(--fw-500);
                 }
                 
                 & > article {
                     display: flex;
                     align-items: center;
                     gap: 6px;
+                    & > small {
+                        font-weight: 300;
+                    }
+
                     & > i {
                         font-size: 12px;
                         color: #1E90FF;

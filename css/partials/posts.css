@@ -4,6 +4,7 @@
     max-height: 100%;
     overflow-y: overlay;
     padding-top: 25px;
+    animation: fade-in .4s linear;
 
     &::-webkit-scrollbar {
         display: none;

@@ -65,6 +65,7 @@
         place-items: center;
         cursor: pointer;
         border-bottom: 3px solid transparent;
+        transition: all .2s linear;
     }
 
     & > .nav_active {
@@ -137,6 +138,10 @@
     
     .header {
         padding: 0 24px;
+    }
+
+    .header_logo {
+        height: 85%;
     }
 
     .header_nav {

@@ -71,6 +71,7 @@
         & > article {
             & > h6 {
                 font-size: var(--fs-5);
+                font-weight: 300;
             }
         }
     }
@@ -145,6 +146,11 @@
             display: flex;
             align-items: center;
             gap: 6px;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: #eee;
+            }
 
             & > img {
                 width: 60px;
@@ -156,7 +162,7 @@
             & > article {
                 & > h4 {
                     font-size: 20px;
-                    font-weight: var(--fw-600);
+                    font-weight: var(--fw-500);
                     margin: unset;
                 }
 

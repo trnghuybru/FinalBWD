@@ -7,6 +7,16 @@
     color: var(--gunmetal);
 }
 
+#content.profile {
+    & > #post {
+        width: 78%;
+    }
+
+    & > #side_bar-right {
+        width: 22%;
+    }
+}
+
 #side_bar-left {
     width: 22%;
     padding: 25px 12px 0 0;
