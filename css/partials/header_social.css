@@ -12,6 +12,7 @@
 .header-mobile-logo {
     height: 100%;
     width: fit-content;
+    cursor: pointer;
 
     & > img {
         height: 100%;
@@ -40,6 +41,7 @@
     text-align: start;
     height: 100%;
     width: 20%;
+    cursor: pointer;
 
     & > img {
         height: 100%;
