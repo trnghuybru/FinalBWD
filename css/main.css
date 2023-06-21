@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
 /* custom property */
 :root {
   --united-nations-blue: hsl(214, 56%, 58%);
@@ -16,8 +18,7 @@
   --jet: hsl(0, 0%, 20%);
 
   /* font */
-  --ff-poppins: "Poppins", sans-serif;
-  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-Montserrat: "Montserrat", sans-serif;
 
   --fs-1: calc(20px + 3.5vw);
   --fs-2: calc(18px + 1.6vw);
@@ -51,58 +52,14 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-Thin.ttf");
-  font-weight: 100;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-ExtraLight.ttf");
-  font-weight: 200;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-Light.ttf");
-  font-weight: 300;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-Regular.ttf");
-  font-weight: 400;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-Medium.ttf");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-SemiBold.ttf");
-  font-weight: 600;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-SemiBold.ttf");
-  font-weight: 700;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-ExtraBold.ttf");
-  font-weight: 800;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-Black.ttf");
-  font-weight: 900;
-}
 
 @keyframes fade-in {
   from {
-      opacity: 0;
+    opacity: 0;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -144,14 +101,14 @@ ion-icon {
 }
 
 html {
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-Montserrat);
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
 }
 
 body {
   background: var(--white);
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-Montserrat);
 }
 
 #app {
@@ -161,17 +118,18 @@ body {
   background-color: #F6F3F3;
 }
 
-#nav-bar{
+#nav-bar {
   z-index: 10000;
 }
+
 /*-----------------------------------*\
  * #REUSED STYLE
 \*-----------------------------------*/
-i.fa.fa-arrow-up{
+i.fa.fa-arrow-up {
   position: fixed;
   bottom: 20px;
   right: 25px;
-  background-color: #3b79c9  ;
+  background-color: #3b79c9;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -181,6 +139,7 @@ i.fa.fa-arrow-up{
   cursor: pointer;
   z-index: 10000;
 }
+
 .container {
   padding-inline: 15px;
 }
@@ -258,6 +217,7 @@ i.fa.fa-arrow-up{
 .feedback-text {
   color: var(--black-coral);
   font-size: var(--fs-5);
+  text-align: justify;
 }
 
 
@@ -265,14 +225,16 @@ i.fa.fa-arrow-up{
 .popular {
   padding-block: var(--section-padding);
 }
-.popular-list{
+
+.popular-list {
   padding: 10px 0px;
 }
-.swiper.mySwiper{
+
+.swiper.mySwiper {
   padding: 20px 0px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   margin-bottom: 30px;
 }
 
@@ -376,12 +338,12 @@ i.fa.fa-arrow-up{
   width: 180px;
 }
 
-.about__img-one, 
+.about__img-one,
 .about__img-two {
   transition: .3s;
 }
 
-.about__img-one:hover, 
+.about__img-one:hover,
 .about__img-two:hover {
   transform: scale(1.1);
 }
@@ -447,7 +409,7 @@ i.fa.fa-arrow-up{
 /* Mission */
 
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(65, 65, 65, 0.627)), url("../img/mission2.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(65, 65, 65, 0.627)), url("../img/mission2.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -472,6 +434,7 @@ i.fa.fa-arrow-up{
   text-align: justify;
   color: rgba(35, 35, 35, 0.745);
 }
+
 /* slides-per-view="auto"  */
 
 @media(min-width: 580px) {
@@ -536,7 +499,7 @@ i.fa.fa-arrow-up{
     padding-right: 30px;
   }
 
-  
+
 }
 
 @media(min-width: 768px) {
@@ -575,19 +538,20 @@ i.fa.fa-arrow-up{
 
   /* community */
   .community .container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
+
   .community .section-content .section-subtitle,
   .community .section-content .section-title,
-  .community .section-content .section-text
-  {
+  .community .section-content .section-text {
     text-align: left;
   }
 
-  .community .section-content .section-title{
+  .community .section-content .section-title {
     font-size: var(--fs-3);
   }
+
   /* feedback */
   .feedback-list {
     display: grid;
@@ -607,6 +571,7 @@ i.fa.fa-arrow-up{
   .feedback-card .feedback-text {
     padding: 0 50px;
   }
+
   /* mission */
 }
 
@@ -628,10 +593,10 @@ i.fa.fa-arrow-up{
   } */
 
   /* community */
-  .community .section-content .section-title{
+  .community .section-content .section-title {
     font-size: 32px;
   }
-  
+
 
   /* feedback */
   .feedback-list {
@@ -651,17 +616,17 @@ i.fa.fa-arrow-up{
   }
 
   /* mission */
-  .banner .section-content{
+  .banner .section-content {
     width: 70%;
     margin-inline: auto;
-    
+
   }
 
-  .banner .section-content .section-text{
+  .banner .section-content .section-text {
     margin-inline: auto;
     width: 80%;
   }
-  
+
 }
 
 @media (min-width: 1200px) {
@@ -684,6 +649,8 @@ i.fa.fa-arrow-up{
    * REUSED STYLE
    */
 
-  .container { max-width: 1180px; }
+  .container {
+    max-width: 1180px;
+  }
 
 }

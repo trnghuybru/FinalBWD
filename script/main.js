@@ -55,7 +55,12 @@ $(document).ready(function () {
         return false;
     });
 
+    // btn login
+    let btnLogin = document.querySelector("#btn_login");
+    
+    btnLogin.addEventListener("click", () => {
+        window.location.assign("../login.html");
+    });
 });
 
 // slider res
-

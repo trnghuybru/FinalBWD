@@ -4,15 +4,17 @@
     padding: 0px 50px;
     display: flex;
     align-items: start;
+    justify-content: center;
     color: var(--gunmetal);
+    gap: 30px;
 }
 
 #content.profile {
-    & > #post {
+    &>#post {
         width: 78%;
     }
 
-    & > #side_bar-right {
+    &>#side_bar-right {
         width: 22%;
     }
 }
@@ -23,10 +25,11 @@
 }
 
 #post {
-    width: 56%;
+    width: 45%;
     height: 100%;
     padding: 0 12px 0px;
 }
+
 
 #side_bar-right {
     width: 22%;
@@ -38,7 +41,7 @@
     #content {
         padding: unset;
     }
-    
+
     #side_bar-left {
         display: none;
         visibility: hidden;
@@ -52,14 +55,14 @@
         display: none;
         visibility: hidden;
     }
- }
+}
 
 @media (min-width: 577px) and (max-width: 992px) {
-    
+
     #content {
         padding: 0px 12px;
     }
-    
+
     #side_bar-left {
         display: none;
     }
@@ -73,4 +76,4 @@
         width: 35%;
         padding-left: 6px;
     }
- }
+}

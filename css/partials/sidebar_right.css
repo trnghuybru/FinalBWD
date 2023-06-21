@@ -15,11 +15,11 @@
     justify-content: space-between;
     align-items: start;
 
-    & > h4 {
+    &>h4 {
         position: relative;
         color: #223544;
         font-size: 20px;
-        font-weight: var(--fw-600);
+        font-weight: var(--fw-700);
         padding: 0 0 6px;
 
         &::after {
@@ -33,7 +33,7 @@
         }
     }
 
-    & > a {
+    &>a {
         font-size: var(--fs-5);
     }
 }
@@ -45,38 +45,41 @@
     gap: 6px;
     margin-top: 12px;
 
-    & > img {
+    &>img {
         width: 50px;
         height: 50px;
         object-fit: cover;
         border-radius: 50%;
     }
 
-    & > div {
+    &>div {
         flex: 1;
 
-        & > article {
+        &>article {
 
-            & > div {
+            &>div {
                 display: flex;
                 justify-content: space-between;
 
-                & > h6 {
-                    font-weight: var(--fw-500);
+                &>h6 {
+                    font-weight: var(--fw-700);
                     margin-bottom: unset;
                 }
             }
         }
 
-        & > div {
+        &>div {
             display: flex;
             justify-content: space-between;
             margin-top: 12px;
+            gap: 10px;
 
-            & > button {
+            &>button {
                 border-radius: 100px;
-                padding: 0 24px;
-                
+                padding: 0 12px;
+                width: 50%;
+                font-size: var(--fs-5);
+
                 &:last-child {
                     background-color: #E3E7EB;
                 }
@@ -91,34 +94,34 @@
     margin-top: 24px;
     border-radius: 29px;
     height: fit-content;
-    
-    & > ul {
+
+    &>ul {
         padding-left: unset;
         margin-top: 12px;
         overflow-y: overlay;
         height: 300px;
 
-          &::-webkit-scrollbar {
+        &::-webkit-scrollbar {
             width: 5px;
         }
-        
+
         /* Track */
         &::-webkit-scrollbar-track {
-            background: transparent; 
+            background: transparent;
         }
-        
+
         /* Handle */
         &::-webkit-scrollbar-thumb {
-            background: #999; 
+            background: #bdbdbdcf;
             border-radius: 32px;
-          }
-          
-          /* Handle on hover */
-          &::-webkit-scrollbar-thumb:hover {
-            background: #555; 
-          }
+        }
 
-        & > li {
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        &>li {
             display: flex;
             align-items: center;
             gap: 6px;
@@ -128,32 +131,33 @@
                 background-color: #eee;
             }
 
-            & + & {
+            &+& {
                 margin-top: 16px;
             }
 
-            & > img {
+            &>img {
                 width: 60px;
                 height: 60px;
                 object-fit: cover;
                 border-radius: 50%;
             }
 
-            & > figcaption {
-                & > h6 {
+            &>figcaption {
+                &>h6 {
                     margin: unset;
                     font-weight: var(--fw-500);
                 }
-                
-                & > article {
+
+                &>article {
                     display: flex;
                     align-items: center;
                     gap: 6px;
-                    & > small {
+
+                    &>small {
                         font-weight: 300;
                     }
 
-                    & > i {
+                    &>i {
                         font-size: 12px;
                         color: #1E90FF;
                     }
@@ -166,29 +170,29 @@
 
 
 @media (min-width: 577px) and (max-width: 992px) {
-    .sidebar_right > .sidebar_right_friends_req {
+    .sidebar_right>.sidebar_right_friends_req {
         padding: 12px;
 
-        & > .sidebar_right_friends_req_head {
-            & > h4 {
+        &>.sidebar_right_friends_req_head {
+            &>h4 {
                 font-size: var(--fs-5);
             }
 
-            & > a {
+            &>a {
                 font-size: var(--fs-7);
             }
         }
 
-        & > .sidebar_right_friends_req_item {
-            & > img {
+        &>.sidebar_right_friends_req_item {
+            &>img {
                 width: 30px;
                 height: 30px;
             }
 
-            & > div {
+            &>div {
                 font-size: var(--fs-5);
 
-                & > article h6{
+                &>article h6 {
                     font-size: var(--fs-5);
                     margin-bottom: unset;
                 }
@@ -197,40 +201,42 @@
     }
 
     .sidebar_right_friends_online {
-        & > article {
+        &>article {
 
-            & > h4 {
+            &>h4 {
                 font-size: var(--fs-5);
             }
 
-            & > a {
+            &>a {
                 font-size: var(--fs-7);
             }
         }
-        & > ul {
-            & > li {
-                & > img {
+
+        &>ul {
+            &>li {
+                &>img {
                     width: 30px;
                     height: 30px;
                 }
 
-                & > figcaption {
+                &>figcaption {
 
-                    & > h6 {
+                    &>h6 {
                         font-size: var(--fs-5);
                     }
 
-                    & > article {
+                    &>article {
 
-                        & > i {
+                        &>i {
                             font-size: 8px;
                         }
+
                         font-size: var(--fs-7);
                     }
                 }
             }
         }
-        
+
     }
 
 }

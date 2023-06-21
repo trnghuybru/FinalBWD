@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
@@ -7,14 +7,14 @@
 }
 
 * {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0rem;
   box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+
 }
 
 .section__container {
@@ -139,7 +139,7 @@ img {
 }
 
 .sec-02 .box-sales h4 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
   margin: 1rem 0 0.4rem;
   color: #0b0b0b;
@@ -147,7 +147,7 @@ img {
 }
 
 .sec-02 .box-sales p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.938rem;
   color: #0b0b0b;
 
@@ -189,14 +189,14 @@ img {
 }
 
 .sec-03 .box-container {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: .1rem;
   box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+
   background: #fff;
   padding-left: 100px;
   padding-right: 100px;
@@ -275,11 +275,10 @@ img {
 }
 
 .sec-03 .box-container .box .content h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   color: #333;
   font-weight: bold;
-  width: 150px;
 }
 
 .sec-03 .box-container .box .content i {
@@ -291,11 +290,13 @@ img {
   color: #666;
   line-height: 0.9rem;
   padding: 0px 0px 0px 0px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .sec-03 .box-container .box .content .location {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .sec-03 .box-container .box .content #like {
@@ -307,7 +308,7 @@ img {
 .sec-03 .box-container .box .content .location span {
   color: rgb(40, 39, 39);
   font-size: 0.8rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
