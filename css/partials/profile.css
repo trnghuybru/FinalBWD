@@ -159,6 +159,10 @@
 }
 
 @media (min-width: 0px) and (max-width: 992px) {
+    .profile_content {
+        padding: unset !important;
+    }
+    
     .list_images {
         &>li {
             padding: 3px;
