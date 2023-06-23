@@ -39,6 +39,7 @@ i {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ddd;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
 }
 
 .header_logo {
@@ -93,7 +94,7 @@ i {
     font-size: 25px;
     gap: 10px;
 
-    & > div:first-child {
+    &>div:first-child {
         display: grid;
         place-items: center;
     }
@@ -163,7 +164,7 @@ i {
     }
 
     .header_nav {
-        width: 60%; 
+        width: 60%;
         gap: 2rem;
         justify-content: center;
 
