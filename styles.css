@@ -30,6 +30,14 @@ header .logo {
 header .logo img{
   max-width: 160px;
 }
+.btn_explore {
+  background-color: #2e83e2 !important;
+  color: white !important;
+}
+
+.btn_explore:hover {
+  background-color: #073064 !important;
+}
 /* header .logo
 {
   color: #fff;
