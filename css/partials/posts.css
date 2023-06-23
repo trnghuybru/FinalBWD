@@ -22,6 +22,7 @@ i {
     background-color: var(--white);
     width: 100%;
     border-radius: 16px;
+    border: #00000008 solid;
 
     &>section:first-child {
         display: flex;
@@ -71,6 +72,7 @@ i {
     background-color: var(--white);
     border-radius: 16px;
     padding: 28px;
+    border: #00000008 solid;
 }
 
 .posts_list_item+.posts_list_item {
