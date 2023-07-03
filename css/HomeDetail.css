@@ -167,7 +167,7 @@
 
 @media only screen and (max-width: 700px){
     .home-details{
-        margin-top: 150px;
+        margin-top: 0px;
     }
     .row p{
         margin-top: 10px;

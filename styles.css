@@ -2,16 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-*
-{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
-header
-{
+header {
   position: absolute;
   top: 0;
   left: 0;
@@ -27,9 +26,11 @@ header .logo {
   justify-content: center;
   align-items: center;
 }
-header .logo img{
+
+header .logo img {
   max-width: 160px;
 }
+
 .btn_explore {
   background-color: #2e83e2 !important;
   color: white !important;
@@ -38,6 +39,7 @@ header .logo img{
 .btn_explore:hover {
   background-color: #073064 !important;
 }
+
 /* header .logo
 {
   color: #fff;
@@ -45,38 +47,39 @@ header .logo img{
   cursor: pointer;
   font-family: 'Poppins';
 } */
-.toggle
-{
+.toggle {
   position: relative;
 }
+
 .toggle .login-btn {
-    width: 130px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid;
-    outline: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color: #fff;
-    font-weight: 500;
-    font-family: 'Lalezar', cursive;;
-}
-.toggle .login-btn:hover {
-    background: #1e90ff;
-    color: white;
+  width: 130px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Lalezar', cursive;
+  ;
 }
 
-.toggle.active
-{
+.toggle .login-btn:hover {
+  background: #1e90ff;
+  color: white;
+}
+
+.toggle.active {
   background: url(https://i.ibb.co/rt3HybH/close.png);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
   cursor: pointer;
 }
-.showcase
-{
+
+.showcase {
   position: absolute;
   right: 0;
   width: 100%;
@@ -89,13 +92,12 @@ header .logo img{
   transition: 0.5s;
   z-index: 2;
 }
-.showcase.active
-{
+
+.showcase.active {
   right: 300px;
 }
 
-.showcase video
-{
+.showcase video {
   position: absolute;
   top: 0;
   left: 0;
@@ -105,39 +107,38 @@ header .logo img{
   opacity: 0.8;
   clip-path: circle(0% at 0 50%);
 }
-.showcase video.active{
+
+.showcase video.active {
   clip-path: circle(150% at 0 50%);
   transition: 1.3s ease;
   transition-property: clip-path;
 }
 
-.overlay
-{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient( to right,rgba(0, 0, 0, 0.815), transparent);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.815), transparent);
   mix-blend-mode: overlay;
 }
-.text
-{
+
+.text {
   position: relative;
   z-index: 10;
   display: none;
 }
 
-.text.active.hidden{
+.text.active.hidden {
   display: none;
 }
 
-.text.active{
+.text.active {
   display: block;
 }
 
-.text h2
-{
+.text h2 {
   font-size: 5em;
   font-weight: 800;
   color: #fff;
@@ -145,8 +146,8 @@ header .logo img{
   text-transform: uppercase;
   font-family: 'Lalezar', cursive;
 }
-.text h3
-{
+
+.text h3 {
   font-size: 4em;
   font-weight: 700;
   color: #fff;
@@ -154,8 +155,8 @@ header .logo img{
   text-transform: uppercase;
   font-family: 'Lalezar', cursive;
 }
-.text p
-{
+
+.text p {
   font-size: 1.1em;
   color: #fff;
   margin: 20px 0;
@@ -163,8 +164,8 @@ header .logo img{
   max-width: 700px;
   font-family: 'Montserrat', sans-serif;
 }
-.text a
-{
+
+.text a {
   display: inline-block;
   font-size: 1em;
   background: #fff;
@@ -176,13 +177,15 @@ header .logo img{
   color: #111;
   letter-spacing: 2px;
   transition: 0.2s;
+  font-family: 'Montserrat';
+  border-radius: 10px;
 }
-.text a:hover
-{
+
+.text a:hover {
   letter-spacing: 6px;
 }
-.social
-{
+
+.social {
   position: absolute;
   z-index: 10;
   bottom: 20px;
@@ -190,55 +193,55 @@ header .logo img{
   justify-content: center;
   align-items: center;
 }
-.social li
-{
+
+.social li {
   list-style: none;
 }
-.social li a
-{
+
+.social li a {
   display: inline-block;
   margin-right: 20px;
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
 }
-.social li a:hover
-{
+
+.social li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
 
-.slider-navigation{
+.slider-navigation {
   z-index: 888;
   position: absolute;
   bottom: 160px;
   left: 45%;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   transform: translateY(80px);
   margin-bottom: 12px;
 }
 
-.slider-navigation .nav-btn.active{
+.slider-navigation .nav-btn.active {
   background: #2696E9;
 }
 
-.slider-navigation .nav-btn{
+.slider-navigation .nav-btn {
   width: 12px;
   height: 12px;
   background: #ffffff9d;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 0 2px rgba(255,255,255,0.5);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
   transition: 0.3s ease;
 
 }
 
-.slider-navigation .nav-btn:not(:last-child){
+.slider-navigation .nav-btn:not(:last-child) {
   margin-right: 20px;
 }
 
-.slider-navigation .nav-btn:hover{
+.slider-navigation .nav-btn:hover {
   transform: scale(1.2);
 }
 
@@ -247,7 +250,7 @@ header .logo img{
   width: 400px;
   height: 440px;
   background: transparent;
-  border: 2px solid rgba(255,255,255, .5);
+  border: 2px solid rgba(255, 255, 255, .5);
   border-radius: 20px;
   backdrop-filter: blur(20px);
   box-shadow: 0 0 30px rgba(0, 0, 0, .5);
@@ -256,7 +259,7 @@ header .logo img{
   align-items: center;
   overflow: hidden;
   transform: scale(0);
-  transition: transform .5s ease,height .2s ease;
+  transition: transform .5s ease, height .2s ease;
   margin-left: 30%;
 }
 
@@ -264,8 +267,8 @@ header .logo img{
   height: 520px;
 }
 
-.wrapper.active-popup{
-  transform: scale(1) ;
+.wrapper.active-popup {
+  transform: scale(1);
 }
 
 .wrapper .form-box {
@@ -273,27 +276,28 @@ header .logo img{
   padding: 40px;
 }
 
-.wrapper .form-box.login{
+.wrapper .form-box.login {
   transition: transform .18s ease;
   transform: translateX(0);
 }
-.wrapper.active .form-box.login{
+
+.wrapper.active .form-box.login {
   transition: none;
   transform: translateX(-400px);
 }
 
-.wrapper .form-box.register{
+.wrapper .form-box.register {
   position: absolute;
   transition: none;
   transform: translateX(400px);
 }
 
-.wrapper.active .form-box.register{
+.wrapper.active .form-box.register {
   transition: transform .18s ease;
   transform: translateX(0);
 }
 
-.wrapper .icon-close{
+.wrapper .icon-close {
   position: absolute;
   top: 0;
   right: 0;
@@ -310,7 +314,7 @@ header .logo img{
   z-index: 1;
 }
 
-.form-box h2{
+.form-box h2 {
   font-size: 2em;
   text-align: center;
   color: #fff;
@@ -339,12 +343,12 @@ header .logo img{
 }
 
 .input-box input:focus~label,
-.input-box input:valid~label{
+.input-box input:valid~label {
   color: #ffffffb2;
   top: -5px;
 }
 
-.input-box input{
+.input-box input {
   width: 100%;
   height: 100%;
   color: white;
@@ -353,11 +357,11 @@ header .logo img{
   outline: none;
   font-family: 'Montserrat';
   font-size: 1em;
-  font-weight:400;
+  font-weight: 400;
   padding: 0 35px 0 5px;
 }
 
-.input-box .icon{
+.input-box .icon {
   position: absolute;
   right: 8px;
   font-size: 1.2em;
@@ -374,6 +378,7 @@ header .logo img{
   display: flex;
   justify-content: space-between;
 }
+
 .remember-forgot label input {
   accent-color: #1e90ff;
   margin-right: 3px;
@@ -383,11 +388,12 @@ header .logo img{
   color: #ffffffb2;
   text-decoration: none;
 }
-.remember-forgot a:hover{
+
+.remember-forgot a:hover {
   text-decoration: underline;
 }
 
-.btn{
+.btn {
   width: 100%;
   height: 45px;
   background: #1e90ff;
@@ -399,7 +405,8 @@ header .logo img{
   font-weight: 500;
   font-family: 'Lalezar', cursive;
 }
-.login-register{
+
+.login-register {
   font-size: .9em;
   color: #ffffffb2;
   text-align: center;
@@ -408,28 +415,28 @@ header .logo img{
   margin: 25px 0 10px;
 }
 
-.login-register p a{
+.login-register p a {
   color: #fff;
   font-weight: bolder;
   text-decoration: none;
 }
-.login-register p a:hover{
+
+.login-register p a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 991px)
-{
+@media (max-width: 991px) {
+
   .showcase,
-  .showcase header
-  {
+  .showcase header {
     padding: 40px;
   }
-  .text h2
-  {
+
+  .text h2 {
     font-size: 3em;
   }
-  .text h3
-  {
+
+  .text h3 {
     font-size: 2em;
   }
 }
