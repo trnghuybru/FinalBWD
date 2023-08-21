@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     $("#header").load("../html/header.html");
     $("#side_bar-left").load("../html/sidebar_left.html");
@@ -53,6 +54,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     });
                     document.title = "Profile | TeckTrek";
                     break;
+                    case 2:
+                      $("#post").load("../html/chat.html", () => {
+                        chat();
+                      });
+                      document.title = "Chat | TechTrek";
+                      break;
                 }
               }
             });
