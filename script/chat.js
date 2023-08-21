@@ -14,9 +14,9 @@ var chat = () => {
 
         // Tạo một thẻ img và thêm thuộc tính src và alt vào
         const imgElement = document.createElement("img");
-        imgElement.setAttribute("src", "../img/avt2.png");
+        imgElement.setAttribute("src", "../img/avt1.png");
         imgElement.setAttribute("alt", "");
-        
+
         liElement.appendChild(h4Element);
         liElement.appendChild(imgElement);
 
@@ -27,11 +27,11 @@ var chat = () => {
 
         input.value = "";
 
-        logMovies();     
+        logMovies();
     });
 }
 async function logMovies() {
     const response = await fetch("https://poe.com/api/gql_POST");
     const movies = await response.json();
     console.log(movies);
-  }
+}
