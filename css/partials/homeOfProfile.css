@@ -57,3 +57,10 @@
     font-size: var(--fs-4);
   }
 }
+
+.btn_home_profile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
