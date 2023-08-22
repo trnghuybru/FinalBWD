@@ -31,7 +31,7 @@ var chat = () => {
           );
         botWaiting.hidden = true;
 
-          const chatbotResponse = response.data.choices[0].text;
+          const chatbotResponse = response.data.choices[0].text.replaceAll("?\n", "");
 
           message("chat_content_bot", chatbotResponse);
     });
