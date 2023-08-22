@@ -112,6 +112,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, auto));
   gap: 2.4rem;
+  margin-top: 100px;
   padding: 100px;
   padding-top: 20px;
 }

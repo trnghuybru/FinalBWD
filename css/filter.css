@@ -37,7 +37,7 @@
     margin-top: 30px;
     margin-bottom: 5%;
     z-index: 100;
-    box-shadow: 0  3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     transform: translateY(50%);
 }
 
@@ -67,7 +67,7 @@
     font-size: 16px;
     z-index: 1;
     border: #1e8fff solid 1px;
-    box-shadow: 0  3px 10px rgba(0, 0, 0, 0.092);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.092);
 }
 
 .btn-container {
@@ -76,7 +76,8 @@
     width: 100%;
 }
 
-#searchHome, #searchRoute {
+#searchHome,
+#searchRoute {
     color: white;
     text-transform: uppercase;
     font-size: 14px;
@@ -95,19 +96,20 @@
 }
 
 
-#searchHome:hover, #searchRoute:hover {
+#searchHome:hover,
+#searchRoute:hover {
     background-color: hsl(214, 57%, 51%);
     border-color: hsl(214, 57%, 51%);
 }
 
-.map-container{
+.map-container {
     position: inherit;
     width: 90%;
     height: 300px;
     margin-inline: auto;
     margin-top: 150px;
     border-radius: 30px;
-    background-color: #1e8fffca ;
+    background-color: #1e8fffca;
     overflow: hidden;
 }
 
@@ -115,7 +117,7 @@
     display: none;
 }
 
-.map-container .close_map{
+.map-container .close_map {
     position: relative;
     display: flex;
     justify-content: center;
@@ -130,7 +132,7 @@
     cursor: pointer;
 }
 
-.map-container .close_map:hover{
+.map-container .close_map:hover {
     background-color: rgb(255, 255, 255);
 }
 
@@ -138,17 +140,19 @@
     font-size: 25px;
     color: #1e8fff;
     z-index: 101;
-   
+
 }
 
-@media (min-width: 580px){
+@media (min-width: 580px) {
     .background {
         margin-bottom: 18%;
     }
-    .filter-container{
+
+    .filter-container {
         top: 250px;
         padding: 30px 40px;
     }
+
     .filter-container .filter-input label {
         margin-left: 30px;
     }
@@ -156,57 +160,69 @@
     .filter-container .filter-input input {
         height: 45px;
     }
-    #searchHome, #searchRoute {
+
+    #searchHome,
+    #searchRoute {
         font-size: 16px;
         width: 48%;
     }
 }
 
-@media (min-width: 768px){
-    .background{
+@media (min-width: 768px) {
+    .background {
         margin-bottom: 10%;
     }
+
     .filter-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         transform: translateY(60%);
         gap: 14px;
     }
+
     .filter-container .filter-input {
         margin-bottom: 5px;
     }
+
     .filter-container .filter-input input {
         height: 40px;
     }
+
     .filter-container .filter-input label {
         margin-left: 20px;
     }
+
     .filter-container .filter-input label .label-style {
         font-size: 16px;
     }
+
     .btn-container {
         grid-column: span 3;
     }
-    #searchHome, #searchRoute{
+
+    #searchHome,
+    #searchRoute {
         font-size: 15px;
         width: 50%;
         margin-bottom: 5px;
         margin-inline: auto;
         width: 44%;
     }
+
     .map-container {
         margin-top: 110px;
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .background {
         margin-bottom: 0;
     }
+
     .filter-container {
         padding: 40px 50px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .filter-container .filter-input {
@@ -228,13 +244,14 @@
         margin-inline: auto;
     }
 
-    #searchHome, #searchRoute {
+    #searchHome,
+    #searchRoute {
         width: 100%;
         margin-inline: auto;
         margin-top: 0px;
         font-size: 16px;
         width: 35%;
-        
+
     }
 
     .map-container {
@@ -243,9 +260,9 @@
     }
 
 }
-@media (min-width: 1200px){
+
+@media (min-width: 1200px) {
     .filter-container {
         transform: translateY(130px);
     }
 }
-
