@@ -5,7 +5,7 @@ var chat = () => {
   const apiKey = "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";
 
   input.addEventListener("change", async (e) => {
-    let training = "Your name is \"Trek TourGuide\" - Tour guide of TechTrek (Website combined with house rental, this website does not provide tours), please answer the following request of visitors: " + e.target.value.trim();
+    let training = "Your name is \"Trek TourGuide\" - Tour guide of TechTrek (Website combined with house rental, this website does not provide tours), please answer the following request of visitors(use English or Vietnamese): " + e.target.value.trim();
 
     message("chat_content_user", e.target.value)
     input.value = "";
@@ -54,7 +54,7 @@ const message = (className, inputValue) => {
   if (className == "chat_content_bot") {
     imgElement.setAttribute("src", "../img/bot.png");
   } else {
-    imgElement.setAttribute("src", "../img/avt2.png");
+    imgElement.setAttribute("src", "../img/avt1.png");
   }
   imgElement.setAttribute("alt", "");
 
