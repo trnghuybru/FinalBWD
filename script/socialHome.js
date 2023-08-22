@@ -43,7 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
                                 });
                                 break;
                               case 1:
-                                $("#profile_content_dynamic").load("../html/homeOfProfile.html");
+                                $("#profile_content_dynamic").load("../html/homeOfProfile.html", () => {
+                                  let btnHomeProfile = document.querySelector(".btn_home_profile > button");
+
+                                  btnHomeProfile.addEventListener("click", () => {
+                                    window.location.assign('HomeDetail.html')
+                                  })
+                                });
                                 break;
                               case 2:
                                 $("#profile_content_dynamic").load("../html/rating.html");

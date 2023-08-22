@@ -1,4 +1,4 @@
-path{
+path {
   fill: #db2017;
 }
 
@@ -12,11 +12,11 @@ path:hover {
   transition: .5 ease; */
 }
 
-#arrow ion-icon{
+#arrow ion-icon {
   position: fixed;
   bottom: 20px;
   right: 25px;
-  background-color: #3b79c9  ;
+  background-color: #3b79c9;
   color: #fff;
   width: 20px;
   height: 20px;
@@ -38,11 +38,11 @@ path:hover {
   -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, 0.3);
   box-shadow: 0 15 px 30px 0 rgba(194, 22, 22, 0.3);
   border-radius: 10px 10px 10px 10px;
-  background: linear-gradient(to left,rgba(255, 255, 255, 0.566) , rgba(255, 255, 255, 0.827)) ,url("https://images.unsplash.com/photo-1531737212413-667205e1cda7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=434&q=80");
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.566), rgba(255, 255, 255, 0.827)), url("https://images.baodantoc.vn/uploads/2021/Th%C3%A1ng_10/Ng%C3%A0y_21/Anh/untitled%20folder/C%E1%BB%99t%20c%E1%BB%9D%20L%C5%A9ng%20C%C3%BA%20nh%C3%ACn%20t%E1%BB%AB%20cao.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  
+  background-size: cover;
+
 }
 
 * {
@@ -210,7 +210,7 @@ body {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.community-box{
+.community-box {
   cursor: pointer;
 }
 
@@ -269,15 +269,16 @@ body {
   font-size: 13px;
   margin-left: 5px;
 }
+
 /* vietnam component */
-.vietnam-component{
+.vietnam-component {
   position: relative;
   width: 100%;
-  min-width: 759,6px;
+  min-width: 759, 6px;
   padding: 80px 80px;
 }
 
-.vn-background{
+.vn-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -291,7 +292,7 @@ body {
   object-fit: cover;
 }
 
-.title-section .head{
+.title-section .head {
   font-family: 'Ms Madi', sans-serif;
   font-size: 80px;
   color: #1e90ff;
@@ -307,12 +308,12 @@ body {
   margin-bottom: 20px;
 }
 
-.title-section .underline{
+.title-section .underline {
   width: 200px;
   height: 8px;
 }
 
-.letter-section{
+.letter-section {
   background: white;
   padding: 35px 50px;
   border-radius: 25px;
@@ -321,30 +322,30 @@ body {
   color: hsl(225, 8%, 42%);
 }
 
-.letter-section .header-footer{
+.letter-section .header-footer {
   font-weight: bold;
   color: hsl(206, 34%, 20%);
 }
 
-.letter-section #V{
+.letter-section #V {
   color: red;
   font-weight: bolder;
   font-size: 15px;
 }
 
-.letter-section #K{
+.letter-section #K {
   color: rgb(255, 196, 0);
   font-weight: bolder;
   font-size: 15px;
 }
 
-.letter-section #U{
+.letter-section #U {
   color: rgb(7, 7, 174);
   font-weight: bolder;
   font-size: 15px;
 }
 
-.vn-subtitle{
+.vn-subtitle {
   font-weight: 700;
   font-size: 20px;
   color: hsl(206, 34%, 20%);
@@ -353,30 +354,30 @@ body {
 
 
 .memory-box.m1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1583838812711-91e66580f5e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1583838812711-91e66580f5e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80");
 }
 
 .memory-box.m2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1606998619117-36786087ea4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1606998619117-36786087ea4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
 }
 
 .memory-box.m3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1673365675699-afb323099f75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1673365675699-afb323099f75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
 }
 
 .memory-box.m4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1680711211916-195a00308786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1680711211916-195a00308786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
 }
 
 .memory-box.m5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1673093781382-766228925b01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1673093781382-766228925b01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
 }
 
 .memory-box.m6 {
-  background: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1443528130140-4f7ea31b2b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.427)), url("https://images.unsplash.com/photo-1443528130140-4f7ea31b2b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80");
 }
 
-.memory-wrapper .memory-box{
+.memory-wrapper .memory-box {
   width: 200px;
   height: 150px;
   background-position: center center;
@@ -392,7 +393,7 @@ body {
   justify-content: end;
 }
 
-.memory-wrapper .memory-box:hover{
+.memory-wrapper .memory-box:hover {
   transition: .5s ease;
   transform: translateY(-5px);
 }
@@ -404,7 +405,7 @@ body {
 
 .memory-wrapper {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
 
@@ -424,7 +425,7 @@ body {
   height: fit-content;
 }
 
-.step-box:not(:last-child){
+.step-box:not(:last-child) {
   margin-bottom: 15px;
 }
 
@@ -432,8 +433,9 @@ body {
   background: #1e90ff;
   color: white;
 }
+
 .step-box.even-step {
-  
+
   color: black;
 }
 
@@ -475,11 +477,11 @@ body {
 }
 
 
-ion-icon.arrow{
+ion-icon.arrow {
   position: fixed;
   bottom: 20px;
   right: 25px;
-  background-color: #3b79c9  ;
+  background-color: #3b79c9;
   color: #fff;
   width: 25px;
   height: 25px;
